@@ -12,10 +12,6 @@
         <filter-name>AuthenticationFilter</filter-name>
         <servlet-name>UserServlet</servlet-name>
     </filter-mapping>
-    <listener>
-        <description>ServletContextListener</description>
-        <listener-class>listeners.EMFListener</listener-class>
-    </listener>
     <servlet>
         <servlet-name>UserServlet</servlet-name>
         <servlet-class>servlets.UserServlet</servlet-class>
